@@ -46,6 +46,12 @@ class ViewController: UIViewController {
             self.numPhotos = self.rocketPhotos.count
             self.downloadImages(photos: self.rocketPhotos)
             self.updatePhotoShown(photo: self.rocketPhotos[self.currentPhotoIndex])
+            // In case the progress view is still in the view
+            DispatchQueue.main.async {
+                if self.progressView?.progress == 1.0 {
+                    self.progressView.removeFromSuperview()
+                }
+            }
         }
     }
     

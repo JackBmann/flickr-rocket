@@ -34,16 +34,16 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <progressView opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="hyw-ip-mol">
-                                <rect key="frame" x="15" y="340" width="345" height="7"/>
+                                <rect key="frame" x="15" y="657.5" width="345" height="4.5"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" secondItem="hyw-ip-mol" secondAttribute="height" multiplier="50:1" id="o2d-cI-SUt"/>
+                                    <constraint firstAttribute="width" secondItem="hyw-ip-mol" secondAttribute="height" multiplier="75:1" id="h3i-iM-y9H"/>
                                 </constraints>
                             </progressView>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="hyw-ip-mol" secondAttribute="bottom" constant="5" id="3MT-ya-M38"/>
                             <constraint firstItem="hyw-ip-mol" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="15" id="80I-Tj-car"/>
-                            <constraint firstItem="hyw-ip-mol" firstAttribute="centerY" secondItem="6Tk-OE-BBY" secondAttribute="centerY" id="BUg-T9-Nem"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="hyw-ip-mol" secondAttribute="trailing" constant="15" id="DoX-s9-Qdm"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="M5P-4K-L5a" secondAttribute="bottom" constant="15" id="EdO-C4-q0t"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="M5P-4K-L5a" secondAttribute="trailing" constant="15" id="SxK-sW-gTn"/>
